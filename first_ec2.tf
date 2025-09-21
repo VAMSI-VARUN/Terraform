@@ -15,7 +15,6 @@ provider "aws" {
 resource "aws_instance" "My_first_IAC_server" {
   ami = "ami-08982f1c5bf93d976"
   instance_type = "t2.micro"
-  subnet_id = "subnet-0371e47388624e3e8"
 
   tags = {
     Name = "My First EC2 Server"
